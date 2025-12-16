@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expone el puerto que usa la aplicación
-EXPOSE 5173
+EXPOSE 4173
 
 # Comando para iniciar el servidor en modo preview
 CMD ["npm", "run", "preview"]
